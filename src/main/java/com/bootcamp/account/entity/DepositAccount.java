@@ -13,5 +13,4 @@ public class DepositAccount extends BaseAccount {
         if (super.getType() == AccountType.DEPOSIT_ACCOUNT) super.setMaxOperations(1);
         return super.getMaxOperations();
     }
-
 }

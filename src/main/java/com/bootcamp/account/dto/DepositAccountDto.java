@@ -1,0 +1,12 @@
+package com.bootcamp.account.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+public class DepositAccountDto extends AccountDto {
+    private LocalDate operationScheduled;
+}
