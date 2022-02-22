@@ -1,6 +1,6 @@
 spring:
   application:
-    name: transaction-service
+    name: account-service
   cloud:
     config:
       username: NTT_Data
